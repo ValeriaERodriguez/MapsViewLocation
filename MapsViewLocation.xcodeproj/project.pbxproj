@@ -13,6 +13,7 @@
 		0456829E28A2993600D64783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0456829C28A2993600D64783 /* Main.storyboard */; };
 		045682A028A2993B00D64783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0456829F28A2993B00D64783 /* Assets.xcassets */; };
 		045682A328A2993B00D64783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045682A128A2993B00D64783 /* LaunchScreen.storyboard */; };
+		045682AC28A2A5F700D64783 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045682AB28A2A5F700D64783 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0456829F28A2993B00D64783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045682A228A2993B00D64783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045682A428A2993B00D64783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045682AB28A2A5F700D64783 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0456829628A2993600D64783 /* AppDelegate.swift */,
 				0456829828A2993600D64783 /* SceneDelegate.swift */,
 				0456829A28A2993600D64783 /* ViewController.swift */,
+				045682AB28A2A5F700D64783 /* LocationManager.swift */,
 				0456829C28A2993600D64783 /* Main.storyboard */,
 				0456829F28A2993B00D64783 /* Assets.xcassets */,
 				045682A128A2993B00D64783 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045682AC28A2A5F700D64783 /* LocationManager.swift in Sources */,
 				0456829B28A2993600D64783 /* ViewController.swift in Sources */,
 				0456829728A2993600D64783 /* AppDelegate.swift in Sources */,
 				0456829928A2993600D64783 /* SceneDelegate.swift in Sources */,
