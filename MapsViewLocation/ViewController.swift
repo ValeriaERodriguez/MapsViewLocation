@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         pin.coordinate = location.coordinate
         
     
-        map.setRegion(MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)), animated: true)
+        map.setRegion(MKCoordinateRegion(center: location.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05 )), animated: true)
         map.addAnnotation(pin)
                                 
         LocationManager.shared.resolveLocationName(with: location) { [weak self] locationName in self?.title = locationName
